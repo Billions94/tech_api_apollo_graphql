@@ -20,6 +20,6 @@ const allResolvers = {
 }
 
 export default allResolvers
-
+// new comment from Alex
 export type Resolver = typeof allResolvers;
 

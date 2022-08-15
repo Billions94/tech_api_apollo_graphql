@@ -1,0 +1,18 @@
+{
+  "name": "BLOG ENV",
+  "dockerFile": "DockerFile",
+  "appPort": [5000],
+  "runArgs": ["-U", "node"],
+  "settings": {
+    "workbench.colorTheme": "Monokai Vibrant",
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "postCreateCommand": "npm install",
+    "extensions": [
+      "wesbos.theme-cobalt2",
+      "esbenp.prettier-vscode",
+      "rvest.vs-code-prettier-eslint",
+      "PKief.material-icon-theme"
+    ]
+  }
+}
